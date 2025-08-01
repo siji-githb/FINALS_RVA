@@ -1,0 +1,188 @@
+body {
+            background: linear-gradient(to bottom, #2d59f0, #3599a5);
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 10px;
+            min-height: 100vh;
+        }
+
+        .container {
+            height: 800px;
+            width: 450px; 
+            background-color: #FFFFFF;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            color: #111827;
+            display: flex;
+            flex-direction: column;
+            gap: 25px; 
+        }
+
+        header {
+            background: #0d1137;
+            height: 280px;
+            color: white;
+            padding: 16px 20px;
+            font-size: 13px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            }
+
+        .transaction-label {
+            position: relative;
+            top: 5px;
+            right: 19.9px;
+            background: white;
+            color:  #111827;
+            padding: 8px 12px;
+            font-size: 14px;
+            display: inline-block;
+            margin-bottom: 16px;
+            font-weight: 600;
+            }
+
+        .top-summary {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            }
+
+        .icon-box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            }
+
+        .icon-box img {
+            position: relative;
+            right: 100px;
+            width: 50px;
+            height: 50px;
+            }
+        .avai {
+            position: relative;
+            bottom: 40px;
+            opacity: 0.7;
+            font-size: 12px;
+            color: white;
+            }
+
+        .balance {
+            position: relative;
+            top: 50px;
+            right: 155px;
+            font-size: 22px;
+            font-weight: 600;
+            color: white;
+            }
+
+        .summary {
+            position: relative;
+            left: 50px;
+            font-size: 12px;
+            text-align: right;
+            }
+
+        .summary span {
+            display: block;
+            opacity: 0.7;
+            }
+
+        .summary strong {
+            display: block;
+            color: white;
+            margin-bottom: 6px;
+            }
+        .inc .gren {
+            line-height: 25px;
+            font-size: 16px;
+            color: rgba(59, 187, 35, 1);
+        }
+        .exp .red{
+            position: relative;
+            top: 15px;
+            line-height: 25px;
+            font-size: 16px;
+            color: rgba(239, 21, 21, 1);
+        }
+
+        .transactions {
+            height: 100%;
+            flex-grow: 1;
+            }
+
+        .item {
+            display: flex;
+            align-items: center;
+            padding: 12px ;
+            border-bottom: 1px solid #eee;
+            }
+
+        .icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            }
+
+        .icon img {
+            width: 50px;
+            height: 50px;
+            }
+
+        .info {
+            flex: 1;
+            margin-left: 10px;
+            font-size: 13px;
+            }
+
+        .info small {
+            color: #777;
+            font-size: 11px;
+            }
+
+        .amount {
+            font-weight: 700;
+            font-size: 16px;
+            color: rgba(59, 187, 35, 1);
+            }
+
+        .amounts {
+            font-weight: 700;
+            font-size: 16px;
+            color: rgba(239, 21, 21, 1);
+            }
+
+        footer {
+            height: 120px;
+            background: #0d1137;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            border-top: 1px solid #22264d;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            }
+
+        .nav {
+            color: #FFFFFF;
+            font-size: 11px;
+            text-align: center;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2px;
+            }
+
+        .nav img {
+            width: 35px;
+            height: 35px;
+            }
+
+        .nav.plus img {
+            width: 50px;
+            height: 50px;
+            
+            }

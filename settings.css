@@ -1,0 +1,78 @@
+body {
+            background: linear-gradient(to bottom, #2d59f0, #3599a5);
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 10px;
+            min-height: 100vh;
+        }
+
+        .mobile-container2 {
+            width: 400px; 
+            background-color: #FFFFFF;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            color: #111827;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 25px; 
+            height: 700px;
+        }
+        .header2 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .icon2 {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .settings-box {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            }
+
+        .setting-item {
+            position: relative;
+            left: 12px;
+            background-color: #0f0e26;
+            color: white;
+            padding: 8px 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 13px;
+            height: 25px;
+            width: 350px;
+            }
+        .setting-item img{
+            height: 20px;
+            width: 40px;
+        }
+        .drop {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .drop img {
+            width: 15px;
+            height: 10px;
+            position: relative;
+            left: 100px;
+        }
+
+        .setting-item.help .icon {
+            border: 1px solid white;
+            border-radius: 50%;
+            padding: 1px 5px;
+            font-size: 10px;
+            }
